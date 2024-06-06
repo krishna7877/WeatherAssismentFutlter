@@ -1,6 +1,19 @@
 # demoproject
 
-A new Flutter project.
+This Flutter application fetches and displays weather data for a specified city using the OpenWeatherMap API via RapidAPI.
+
+## Features
+
+- Displays city name, current temperature, weather description, and an icon representing the current weather.
+- Allows users to search for weather information by city name.
+- Manages state using BLoC pattern.
+- Provides error handling for incorrect city names or API issues.
+
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK
+- A valid RapidAPI key for the OpenWeatherMap API
 
 ## Getting Started
 
